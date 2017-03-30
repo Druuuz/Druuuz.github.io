@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<?php
+		require_once "for_mysql/function.php";
+		$title = "Pink.com";
+		 require_once "blocks/head.php";
+		 $news = getNews (3,"");
+		 require_once "media/media.php";
+	 ?>
+</head>
+<body>
+<div class="wrapper">
+	<?php require_once "blocks/header.php" ?>
+	<div class="center">
+		<div class="center-top">
+			<div class="in-center-top">
+				<h1>Lorem Ipsum is simply dummy </h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+				<ul class="main-services">
+					<li id="tct"></br><p>Tickets</p><p class="invis">You can but tickets here</p></li>
+					<li id="cmr"></br><p>Camera</p><p class="invis">You can but tickets here</p></li>
+					<li id="br"></br><p>Beer</p><p class="invis">You can but tickets here</p></li>
+					<li id="dvc"></br><p>Device</p><p class="invis">You can but tickets here</p></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="center-bot">
+			<ul class="in-center-bot">
+			<?php 
+			for ($i = 0; $i < count($news); $i++)
+			{
+				echo '<li><a href="article.php?id='.$news[$i]["id"].'"><div class="preview"><img src="img/news/'.$news[$i]["id"].'.jpg"></div><div class="pre-info"><h1>'.$news[$i]["title"].''.$news[$i]["id"].'</h1><p>'.$news[$i]["into_text"].'</p></div></li></a>';
+			}
+
+			 ?>
+			
+				
+			</ul>
+		</div>
+
+	</div>
+	<?php require_once "blocks/footer.php" ?>
+</div>
+</body>
+</html>

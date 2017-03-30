@@ -1,0 +1,153 @@
+.center-about{
+	padding-bottom: 260px;
+	width: 100%;
+}
+
+.in-center-about{
+	width: 100%;
+	margin:0 auto;
+	padding-top: 70px;
+}
+.in-center-about-top{
+	box-shadow: 0px 3px 3px black;
+}
+.in-center-about-bot{
+	width: 960px;
+	margin:0 auto;
+	padding-bottom: 80px;
+	
+}
+.in-center-about-top-container
+{
+	width: 960px;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+.in-center-about-top h1{
+	color: #D44641;
+	text-align: center;
+}
+.in-center-about-top p{
+	color:#869191;
+	word-wrap: break-word;
+	text-align: center;
+}
+.for-diagram{
+	overflow: hidden;
+	margin-top: 130px;
+}
+.WhyChoose{
+	width: 30%;
+	float: left;
+}
+.WhyChoose h1{
+	text-align: left;
+	color:#778383;
+	font-size: 25px;
+}
+.answers{
+	width: 100%;
+	padding-top: 20px;
+}
+.answers li:before{
+	content: url("../img/answer.png");
+	padding-right: 5px;
+}
+.diagram{
+	width:40%;
+	float: left;
+}
+.diagram h1{
+	text-align: center;
+	color:#778383;
+	font-size: 25px;
+}
+.social-diag{
+	overflow: hidden;
+	width:100%;
+	padding-top: 20px;
+}
+.social-diag li{
+	float: left;
+	width: 13%;
+	height: 50px;
+	background: #7EB6AF;
+	border-radius: 10px;
+	margin-left:6%;
+	margin-right: 6%;
+}
+#d-fb{
+	margin-left:16px; 
+	margin-top: 9px;
+}
+#d-tw{
+	margin-left:13px; 
+	margin-top: 12px;
+}
+#d-share{
+	margin-left:10px; 
+	margin-top: 9px;
+}
+#d-db{
+	margin-left:8px; 
+	margin-top: 7px;
+}
+.WhatSay{
+	width: 30%;
+	float: left;
+}
+.WhatSay h1{
+	text-align: center;
+	color:#778383;
+	font-size: 25px;
+}
+.WhatSay p {
+	width: 60%;
+	margin-left:20%;
+	margin-right: 20%;
+	text-align: right;
+}
+.letter{
+	width: 60%;
+	margin-left:20%;
+	margin-right: 20%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.in-center-about-bot ul{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 100px;
+
+
+}
+.in-center-about-bot ul li:hover{
+	cursor: pointer;
+	border: 3px solid #ea2e2e;
+
+}
+.in-center-about-bot ul li:hover h2{
+		color:#ea2e2e;
+}
+.in-center-about-bot ul li{
+	float: left;
+	height: 309px;
+	width: 25%;
+	box-sizing: border-box;
+	border: 3px solid white;
+	transition: all 2s ease 1s;
+
+}
+.in-center-about-bot ul li img{
+	margin-left:90px;
+	margin-top:52px;
+	margin-bottom: 20px;
+}
+.in-center-about-bot ul li h2{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	color: #778383;
+	padding-bottom: 30px;
+}
